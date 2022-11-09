@@ -1,0 +1,1 @@
+$publicIp = New-AzPublicIpAddress -Name "myip" -ResourceGroupName "my-grp" -AllocationMethod Static  -Location "eastus"

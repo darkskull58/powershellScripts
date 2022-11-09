@@ -1,0 +1,1 @@
+New-AzStorageAccount -ResourceGroupName demo -Name yashaccount83188 -Location westus -SkuName Standard_GRS

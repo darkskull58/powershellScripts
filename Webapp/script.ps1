@@ -1,0 +1,2 @@
+New-AzAppServicePlan -ResourceGroupName "demo" -Name "ContosoASP" -Location "West US" -Tier "Free" -NumberofWorkers 2 -WorkerSize "Small"
+New-AzWebApp -ResourceGroupName Default-Web-WestUS -Name "ContosoSite83188" -Location "West US" -AppServicePlan "ContosoASP"

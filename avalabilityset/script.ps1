@@ -1,0 +1,1 @@
+New-AzAvailabilitySet -ResourceGroupName "my-grp" -Name "AvailabilitySet03" -Location "East US"
